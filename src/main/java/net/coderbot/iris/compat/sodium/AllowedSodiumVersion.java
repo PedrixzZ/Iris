@@ -14,7 +14,7 @@ public class AllowedSodiumVersion {
 	}
 
 	public static AllowedSodiumVersion prefix(String prefix) {
-		return new AllowedSodiumVersion(prefix, null, false);
+		return new AllowedSodiumVersion(prefix, null, true);
 	}
 
 	public static AllowedSodiumVersion exact(String version, String downloadLink) {
