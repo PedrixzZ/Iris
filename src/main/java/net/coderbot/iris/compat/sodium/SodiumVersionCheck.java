@@ -14,7 +14,7 @@ public class SodiumVersionCheck {
 	private static final ImmutableList<AllowedSodiumVersion> ALLOWED_SODIUM_VERSIONS = ImmutableList.of(
 			// Dev version
 		AllowedSodiumVersion.exact("0.4.12rev.7a23v19-dirty",
-					"https://modrinth.com/mod/sodium/version/mc1.20-0.4.10")
+					"https://github.com/PedrixzZ/sodium-fabric/suites/14427608040/artifacts/814063011")
 	);
 
 	public static String getDownloadLink() {
